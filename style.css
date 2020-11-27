@@ -1,5 +1,5 @@
 body{
-    box-sizing: none;
+    margin: auto;
 }
 
 /*header*/
@@ -71,7 +71,7 @@ nav a:hover {
 }
 
 .visitmore {
-    background-color: rgb(218, 218, 218);
+    background-color: rgb(235, 235, 235);
     margin-top: 100px;
     font-family: 'Poppins';
 }
@@ -88,17 +88,25 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
 }
 
-.textvr, h4 {
+.textvr {
     margin-left: 85px;
 }
 
-.textse, h4 {
+.textse {
     margin-left: 85px;
 }
 
 h2 {
     margin-left: 165px;
 }
+
+h4 {
+    margin: auto;
+    padding: 0px 170px 0px 170px;
+    text-align: left;
+}
+
+
 /*Involved*/
 
 .involvedtext {
@@ -153,8 +161,17 @@ h2 {
         min-width: fit-content;
     }
 
-    .visitmore, h2, h4 {
+    .visittext {
+        padding-left: 10px;
+    }
+
+    .visitmore {
         margin: auto;
+    }
+
+    h2 {
+        margin: auto;
+        padding-left: 58px;
     }
 
     .visitgrid {
@@ -162,12 +179,13 @@ h2 {
         grid: none;
     }
 
-    .visitpic1, .textvr {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+    h4 {
+        margin: auto;
+        padding: 0px 55px 40px 55px;
+        text-align: left;
     }
 
     .footer1, .footer2, .footer3 {
-        margin: 10px;
+        margin: auto;
     }
 }
