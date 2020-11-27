@@ -1,3 +1,7 @@
+body{
+    box-sizing: none;
+}
+
 /*header*/
 
 .navbar a {
@@ -66,7 +70,35 @@ nav a:hover {
     margin: auto;
 }
 
+.visitmore {
+    background-color: rgb(218, 218, 218);
+    margin-top: 100px;
+    font-family: 'Poppins';
+}
 
+.visitgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.visitgrid2 {
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+}
+
+.textvr, h4 {
+    margin-left: 85px;
+}
+
+.textse, h4 {
+    margin-left: 85px;
+}
+
+h2 {
+    margin-left: 165px;
+}
 /*Involved*/
 
 .involvedtext {
@@ -103,11 +135,39 @@ nav a:hover {
 .footer1, .footer2, .footer3 {
     margin-top: 10px;
 }
+
 /*media*/
 
 @media (max-width: 800px) {
     .eventspage {
         margin-left: 10px;
         margin-right: 50px;
+    }
+}
+
+
+
+@media (max-width: 750px) {
+
+    body {
+        min-width: fit-content;
+    }
+
+    .visitmore, h2, h4 {
+        margin: auto;
+    }
+
+    .visitgrid {
+        display: grid;
+        grid: none;
+    }
+
+    .visitpic1, .textvr {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .footer1, .footer2, .footer3 {
+        margin: 10px;
     }
 }
