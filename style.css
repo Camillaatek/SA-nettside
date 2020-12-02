@@ -271,3 +271,14 @@ h4 {
   }
 
 }
+
+@media (min-width: 992px) {
+    h4 {
+        padding: 0px 290px 0px 290px;
+    }
+
+    h2 {
+        margin: auto;
+        padding-left: 280px;
+    }
+}
