@@ -10,7 +10,7 @@ body{
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
-    padding: none;
+    padding: 5px;
 }
 
 .navbarlogo {
@@ -293,7 +293,7 @@ h4 {
 
 
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 425px) {
 
     body {
         max-width: 375px;
@@ -369,10 +369,12 @@ h4 {
     }
 
     .visitp, .explorep, .involvedp, .eventsp {
-        margin: 5px 0px 20px 0px;
+        margin: 5px 0px 5px 5px;
+        padding: none;
     }
+    
     img {
-        width: 340px;
+        width: 100px;
     }
 
     .logo {
@@ -380,9 +382,24 @@ h4 {
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .homecontainer2 {
+        display: grid;
+        grid: none;
+    }
 
+    .eventsp, .explorep, .visitp, .involvedp {
+        padding-right: 20px;
+    }
 
-@media (max-width: 1024px) {
+    .getinvolved, .specialevents, .visit, .explore {
+        padding-left: 100px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1024px) {
   h4 {
       padding: 0px 70px 0px 70px;
   }
@@ -396,15 +413,36 @@ h4 {
       min-width: fit-content;
   }
 
-}
+  .hometext {
+      padding: 0px 20px 0px 20px;
+  }
+  .explore, .getinvolved, .specialevents, .visit {
+      padding: 10px;
+  }
+  img {
+      width: 450px;
+  }
 
-@media (min-width: 992px) {
-    h4 {
-        padding: 0px 290px 0px 290px;
-    }
+  .footer-container {
+      margin-top: 50px;
+  }
 
-    h2 {
-        margin: auto;
-        padding-left: 280px;
-    }
+  .visitpic1, .visitpic2 {
+      width: 300px;
+      padding-left: 25px;
+  }
+
+  .vr, .se {
+      padding: 1px;
+  }
+
+  .logo {
+      padding-top: 5px;
+  }
+
+  .eventsinfo {
+      padding: 0px 50px 0px 0px;
+      
+  }
+
 }
