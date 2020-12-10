@@ -295,10 +295,7 @@ h4 {
 
 @media only screen and (max-width: 425px) {
 
-    body {
-        max-width: 375px;
-
-    }
+ 
 
     .nav-wrapper a{
         font-size: 13px;
@@ -373,12 +370,16 @@ h4 {
         padding: none;
     }
     
-    img {
+    .visitpic1, .visitpic2 {
         width: 100px;
     }
 
     .logo {
         padding-top: 5px;
+    }
+
+    img {
+        width: 320px;
     }
 }
 
@@ -389,7 +390,7 @@ h4 {
     }
 
     .eventsp, .explorep, .visitp, .involvedp {
-        padding-right: 20px;
+        padding-right: 200px;
     }
 
     .getinvolved, .specialevents, .visit, .explore {
@@ -420,7 +421,6 @@ h4 {
       padding: 10px;
   }
   img {
-      width: 450px;
   }
 
   .footer-container {
@@ -429,7 +429,7 @@ h4 {
 
   .visitpic1, .visitpic2 {
       width: 300px;
-      padding-left: 25px;
+      padding-left: 70px;
   }
 
   .vr, .se {
