@@ -125,6 +125,8 @@ nav a:hover {
     padding: 1px;
     font-size: 25px;
     color: black;
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 .involvedh4 {
@@ -132,6 +134,8 @@ nav a:hover {
     padding: 1px;
     font-size: 25px;
     color: black;
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 .visith4 {
@@ -139,7 +143,9 @@ nav a:hover {
     padding: 1px;
     font-size: 25px;
     color: black;
-    font-family: 'Archivo Black', sans-serif;
+    
+    text-decoration: underline;
+    font-size: 30px;
 }
 
 a {
@@ -157,6 +163,7 @@ a {
     padding: 1px;
     font-size: 30px;
     color: black;
+    text-decoration: underline;
 }
 .explore, .getinvolved {
     
@@ -249,6 +256,7 @@ h4 {
 }
 
 
+
 /*Explore*/
 
 .exploretext {
@@ -257,6 +265,9 @@ h4 {
     margin: auto;
 }
 
+.explorepic {
+    text-align: center;
+}
 
 /*footer*/
 
@@ -279,27 +290,38 @@ h4 {
 
 /*media*/
 
+
+
+
 @media (max-width: 800px) {
+
+    body {
+        max-width: 375px;
+
+    }
+
+    .nav-wrapper a{
+        font-size: 13px;
+        padding: 5px;
+        padding-top: 15px;
+    }
+    
+    .footer-container {
+       font-size: 13px;
+       margin-top: 10px;
+       
+    }
+    
+    .exploretext {
+        padding: 0px 10px 0px 10px;
+    }
     .eventspage {
         margin-left: 10px;
-        margin-right: 50px;
-    }
-
-    body {
-        min-width: fit-content;
-    }
-}
-
-
-
-@media (max-width: 750px) {
-
-    body {
-        min-width: fit-content;
+        margin-right: 10px;
     }
 
     .visittext {
-        padding-left: 10px;
+        padding: 0px 10px 0px 10px;
     }
 
     .visitmore {
@@ -324,6 +346,37 @@ h4 {
 
     .footer1, .footer2, .footer3 {
         margin: auto;
+    }
+
+    .involvedtext {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .hometext {
+        padding: 0px 10px 0px 10px;
+    }
+    .botleft, .botleft2, .botleft3 {
+        font-size: 5px;
+    }
+
+    .homecontainer2 {
+        display: grid;
+        grid: none;
+    }
+
+    .visit, .specialevents, .getinvolved, .explore {
+        padding: 10px;
+    }
+
+    .visitp, .explorep, .involvedp, .eventsp {
+        margin: 5px 0px 20px 0px;
+    }
+    img {
+        width: 340px;
+    }
+
+    .logo {
+        padding-top: 5px;
     }
 }
 
