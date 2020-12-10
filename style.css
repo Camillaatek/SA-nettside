@@ -327,7 +327,7 @@ h4 {
 
     h2 {
         margin: auto;
-        padding-left: 58px;
+        padding-left: 20px;
     }
 
     .visitgrid {
@@ -390,7 +390,7 @@ h4 {
     }
 
     .eventsp, .explorep, .visitp, .involvedp {
-        padding-right: 200px;
+        padding-right: 20px;
     }
 
     .getinvolved, .specialevents, .visit, .explore {
@@ -407,7 +407,7 @@ h4 {
 
   h2 {
       margin: auto;
-      padding-left: 70px;
+      padding-left: 30px;
   }
 
   .nav-wrapper {
@@ -429,7 +429,7 @@ h4 {
 
   .visitpic1, .visitpic2 {
       width: 300px;
-      padding-left: 70px;
+      padding-left: 20px;
   }
 
   .vr, .se {
