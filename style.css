@@ -23,6 +23,8 @@ body{
     text-decoration: none;
     padding:15px 0 10px 0;
 }
+
+
 nav {
     display: flex;
     justify-content: center;
@@ -31,7 +33,13 @@ nav {
     margin: auto;
 }
 
+.nav-wrapper li.active a {
+    color: rgb(161, 161, 161);
+}
 
+.nav-wrapper li.active {
+    list-style-type: none;
+}
 
 .nav-wrapper {
     font-family: 'Poppins';
