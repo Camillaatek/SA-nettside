@@ -421,13 +421,12 @@ h4 {
   }
 
   .visitpic1, .visitpic2 {
-      width: 300px;
-      padding-left: 20px;
+      text-align: center;
   }
 
   .vr, .se {
-      padding: 1px;
-      padding-bottom: 30px;
+      padding: 1px 20px 30px 20px;
+      text-align: center;
   }
 
   .logo {
