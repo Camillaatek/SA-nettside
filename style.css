@@ -359,7 +359,9 @@ h4 {
         width: 320px;
     }
 
-    
+    .eventsinfo {
+        padding-left: 100px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -375,7 +377,6 @@ h4 {
     .getinvolved, .specialevents, .visit, .explore {
         padding-left: 100px;
     }
-
     
 }
 
@@ -392,6 +393,11 @@ h4 {
   .nav-wrapper {
       min-width: fit-content;
   }
+
+  .homecontainer2 {
+        display: grid;
+        grid: none;
+    }
 
   .hometext {
       padding: 0px 20px 0px 20px;
