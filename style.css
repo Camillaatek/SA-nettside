@@ -176,11 +176,6 @@ a {
     margin-left: 500px;
     margin-top: 30px;
 }
-/*
-.eventspage {
-    margin-left: 300px;
-    margin-right: 100px;
-}*/
 
 .eventsinfo {
     font-family: 'Poppins';
@@ -368,10 +363,6 @@ h4 {
     img {
         width: 320px;
     }
-
-    .eventsinfo {
-        
-    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -431,11 +422,6 @@ h4 {
 
   .logo {
       padding-top: 5px;
-  }
-
-  .eventsinfo {
-      
-      
   }
 
 }
